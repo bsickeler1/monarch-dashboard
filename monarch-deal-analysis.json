@@ -1,96 +1,174 @@
 {
-  "generated_at": "2026-04-23T00:00:00Z",
-  "summary": {
-    "total": 5,
-    "high": 2,
-    "medium": 2,
-    "low": 1
-  },
-  "Opportunities": [
-    {
-      "name": "Great Lakes Orthopaedic Center",
-      "deal type": "New Logo",
-      "Size": "4 locations · ~2K calls/week · 40 physicians",
-      "EHR": "Athena",
-      "Deal phase": "Paper Process",
-      "why_exciting": "First multi-site ortho Monarch deployment. Bundled Monarch + ClearPay at meaningful call volume with Athena integration.",
-      "Key notes": [
-        "Contract docs being sent today/tomorrow — Jim (CEO) is the economic buyer",
-        "Jim needs pricing rationale before committing to pilot",
-        "No ortho reference customer to anchor the ROI conversation",
-        "Free pilot → $1.25/resolved call + $0.40/ClearPay at scale"
-      ],
-      "next_steps": [
-        "Send contract docs today/tomorrow (Kapeesh / AE)",
-        "Kapeesh preps Jim on pricing rationale before doc review",
-        "Source ortho reference customer to strengthen ROI framing"
-      ]
-    },
+  "generated_at": "2026-04-23",
+  "sources": ["Slack (#mon-prosp-* channels, #prosp-monarch-deals)", "Granola meeting notes"],
+  "deals": [
     {
       "name": "CLS Health",
-      "deal type": "New Logo",
-      "Size": "~3K telemed visits/mo · $3,500/mo",
-      "EHR": "ECW",
-      "Deal phase": "Paper Process",
-      "why_exciting": "Pure telehealth Monarch play with a clear competitive win over Luma. June 1 start is achievable if objections are resolved this week.",
-      "Key notes": [
-        "Pricing approved at $3,500/mo + 1% Solv Pay + $0.50 ClearPay",
-        "Abigail surprised by dual-fee structure — active objection to resolve",
-        "President not yet on any calls — deal could reset at executive level",
-        "Requesting 6-month term, waived $2K impl fee, and free trial",
-        "Luma confirmed unable to match Monarch capabilities"
+      "deal_type": "New Logo",
+      "size": "$3,500/mo (up to 3,000 telemed visits) + 1% SolvPay + $0.50 ClearPay",
+      "ehr": "ECW",
+      "deal_phase": "Paper Process",
+      "champion": "Abigail Escalante (EMR Ops Manager); President of CLS also engaged",
+      "status": "Pricing approved internally (Teresa, Apr 20) at $3,500/mo for 3,000 telemed visits. On the Apr 23 pricing call, Abigail was surprised by the dual-fee model — flat platform fee plus SolvPay usage fees — raising concern about $18K in fees over 6 months before telehealth revenue generates. She is requesting a hybrid pricing model, 6-month initial term, and waived or reduced $2K implementation fee. Luma confirmed unable to match Solv's full A-to-Z capability, making Solv the only viable option. President is applying internal pressure to move fast; ideal launch target is June 1.",
+      "key_risks": [
+        "Dual-fee pricing model causing sticker shock; concessions likely needed",
+        "ECW to Epic/Oracle migration possible in ~1 year — contract flexibility required",
+        "Pre-visit payment collection workflow for telehealth still unconfirmed"
       ],
-      "next_steps": [
-        "Get President on a call before paper moves forward (Brantley — this week)",
-        "Address dual-fee objection: simplify or reframe the pricing narrative",
-        "Confirm June 1 start feasibility with implementation team"
-      ]
+      "next_step": "Brantley + Teresa to discuss pricing flexibility with finance (1–2 days); consider getting President on a call; confirm June 1 start feasibility with implementation team.",
+      "key_notes": "Pricing approved but dual-fee model is creating active objection — finance flexibility decision in 1–2 days."
     },
     {
-      "name": "Premier Ortho",
-      "deal type": "New Logo",
-      "Size": "—",
-      "EHR": "—",
-      "Deal phase": "Paused",
-      "why_exciting": "Warm, Monarch-ready practice — deal is not dead, just waiting on an external contract to resolve.",
-      "Key notes": [
-        "On hold pending Assort contract resolution",
-        "No active outreach — relationship intact"
+      "name": "Great Lakes Orthopaedic Center (GLOC)",
+      "deal_type": "Design Partner (inferred)",
+      "size": "2 locations to start, ~2,000 calls/week; 40 physicians + 100 PAs after acquisitions",
+      "ehr": "Athena",
+      "deal_phase": "Clear MSP",
+      "champion": "Jim (CEO); Deanna (Clinical Manager) skeptical but involved",
+      "status": "Pricing proposal delivered Apr 21. Teresa finalized structure: free pilot → $1.25/resolved call + $0.40/ClearPay at scale. Kapeesh flagged that Jim needs to see eventual pricing and ROI before deciding whether the pilot is worth his time at all. Jim must build a defensible cost model to present to his physician partners before committing. GLOC just tripled in size via two acquisitions, complicating the scheduling environment. No ortho reference customer remains the top objection.",
+      "key_risks": [
+        "No ortho reference customer — Jim explicitly does not want to be a beta test",
+        "ClearPay value unclear vs. $100K/month Athena spend (perceived overlap)",
+        "Collections is a culture problem — physicians waive fees; Jim acknowledged leadership change needed internally"
       ],
-      "next_steps": [
-        "Monitor Assort contract status",
-        "Re-engage immediately once Assort situation resolves"
-      ]
+      "next_step": "Brantley and Teresa to follow up on Jim's timeline for presenting to partners; prep ortho-specific ROI model for war room.",
+      "key_notes": "Free pilot offer sent; Jim needs a defensible ROI model before he'll commit — partner consensus required."
     },
     {
       "name": "Total Primary Care",
-      "deal type": "New Logo",
-      "Size": "—",
-      "EHR": "—",
-      "Deal phase": "Stalled",
-      "why_exciting": "Expressed strong interest but timing is misaligned. Solid future pipeline — revisit Q3.",
-      "Key notes": [
-        "Cut off in early April — not on timeline for 6–9 months",
-        "No active outreach since early April"
+      "deal_type": "New Logo",
+      "size": "47 locations, ECW; acquisition-only model proposed",
+      "ehr": "ECW",
+      "deal_phase": "Clear Pain & Criteria",
+      "champion": "Rikin Shah (Chief of Staff)",
+      "status": "Deprioritized as of Apr 7 — 6 to 9 month horizon. Apr 1 discovery confirmed Total Primary Care will not replace their CTO-built custom scheduler. Rikin proposed Solv purely as a new-patient acquisition channel: patients find Total Primary Care via Solv.com, book through Solv, sync into ECW, with all existing workflows untouched. Maya interest is lukewarm — they are already piloting a competing voice agent. Solv's internal appetite for an acquisition-only model with no payments or paperwork is unconfirmed.",
+      "key_risks": [
+        "CTO-built scheduler is locked in — full Solv deployment not possible",
+        "Maya competitor already in active pilot; ECW integration skepticism remains",
+        "Solv's willingness to support an acquisition-only model (no payments, no paperwork) is undecided"
       ],
-      "next_steps": [
-        "Schedule Q3 re-engagement touchpoint (target July)"
-      ]
+      "next_step": "Internal Solv go/no-go decision needed on acquisition-only model; if yes, schedule technical call with Total Primary Care CTO.",
+      "key_notes": "Won't replace custom scheduler; acquisition-only model needs internal Solv green light before any re-engagement."
+    },
+    {
+      "name": "Premier Ortho",
+      "deal_type": "New Logo",
+      "size": "6 locations, 17 providers, ~20–25K calls/month",
+      "ehr": "Athena",
+      "deal_phase": "Prospecting",
+      "champion": "Jon Borja (COO) — proactive, confirmed intent to return",
+      "status": "Formally paused since Mar 11. Jon messaged proactively (rather than ghosting) to explain that contractual obligations to Assort block all movement with no exit timeline. He confirmed intent to return when clear. No new signals since. Brantley checking in every ~2 weeks.",
+      "key_risks": [
+        "Assort contract exit timeline unknown — could drag indefinitely",
+        "Urgency and momentum fade the longer the pause extends",
+        "Zero visibility or leverage on the Assort negotiation"
+      ],
+      "next_step": "Brantley periodic check-in every ~2 weeks; Jon holds the ball.",
+      "key_notes": "Paused — blocked by Assort contract with no exit timeline; Jon self-advocating to return when clear."
+    },
+    {
+      "name": "Elevate Health Group",
+      "deal_type": "Expansion (inferred — existing Mederi partner relationship)",
+      "size": "3 locations, 18 providers, primary care, SoCal",
+      "ehr": "Athena",
+      "deal_phase": "Prospecting",
+      "champion": "Katia Sarfian (Administrator); Dr. Tovmassian (owner) is the blocker",
+      "status": "Near-dead. Dr. Tovmassian rejected on Mar 16: 'Doesn't make sense for our practice, 90% of patients are recurring.' ClearPay's point-of-care estimate workflow does not fit a recurring primary care base. Follow-up sent Mar 24 requesting a leadership call; no response. Brantley not pushing hard to protect the existing Mederi relationship with the same owner.",
+      "key_risks": [
+        "Owner is the decision maker and has rejected the current offer",
+        "ClearPay product-market fit gap for recurring primary care patients is real",
+        "Aggressive outreach risks damaging the active Mederi partner relationship"
+      ],
+      "next_step": "Low-touch follow-up only; explore internally whether a modified ClearPay model for recurring patients is worth building.",
+      "key_notes": "Near-dead — owner rejected ClearPay as poor fit; Mederi relationship limits how hard to push."
+    },
+    {
+      "name": "OS1 Orthopedic & Sports Injury Clinics",
+      "deal_type": "New Logo (inferred)",
+      "size": "—",
+      "ehr": "—",
+      "deal_phase": "Prospecting",
+      "champion": "Randy Johansen (board member, former AFC CEO)",
+      "status": "Very early. Randy was introduced to Brantley at the UCA happy hour on Apr 20. OS1 operates under an urgent ortho model, which is ICP-aligned. Only a brief conversation so far — a follow-up meeting was discussed for after UCA. No discovery details yet.",
+      "key_risks": [
+        "Extremely early — no discovery or pain validation done",
+        "Randy is retired and casually engaged; unclear if he is an active internal champion"
+      ],
+      "next_step": "Brantley to schedule post-UCA discovery call with Randy.",
+      "key_notes": "Warm intro at UCA; urgent ortho model is ICP-aligned but zero discovery done."
     },
     {
       "name": "Plymouth Bay Ortho",
-      "deal type": "New Logo",
-      "Size": "1 urgent care location",
-      "EHR": "ECW",
-      "Deal phase": "Removed from pipeline",
-      "why_exciting": "—",
-      "Key notes": [
-        "Internal no-go decision made 4/22 — won't build custom solution for single urgent care location",
-        "ECW integration requirements were unclear"
+      "deal_type": "New Logo",
+      "size": "1 standalone ortho urgent care location (June 1 opening)",
+      "ehr": "ECW",
+      "deal_phase": "Removed from Pipeline",
+      "champion": "Christopher LaFave (Executive Director); Jennifer Hazelton (Dir. of Marketing)",
+      "status": "Internal Solv no-go decision made Apr 22. Prospect showed strong interest through a positive Apr 8 demo with full leadership team and verbal buy-in. However, the opportunity was removed from active pipeline — Solv will not build a custom ECW integration for a single urgent care location. Prospect rejection was not the driver; this was a Solv-side resource and ICP decision.",
+      "key_risks": [
+        "ECW build investment not justified for single-location urgent care",
+        "Referral workflow gap would have blocked expansion to other 3 ortho clinics anyway"
       ],
-      "next_steps": [
-        "No action — revisit only if scope or product fit changes"
-      ]
+      "next_step": "No action — revisit only if scope expands to include all 4 locations or ECW build economics change.",
+      "key_notes": "Internal no-go Apr 22 — ECW build not worth single location; prospect was interested but Solv chose not to pursue."
+    }
+  ],
+  "leadership_table": [
+    {
+      "prospect": "CLS Health",
+      "deal_type": "New Logo",
+      "size": "$3,500/mo (~3K telemed visits)",
+      "ehr": "ECW",
+      "deal_phase": "Paper Process",
+      "key_notes": "Pricing approved; dual-fee sticker shock on Apr 23 call — finance flexibility decision in 1–2 days."
+    },
+    {
+      "prospect": "GLOC",
+      "deal_type": "Design Partner",
+      "size": "2 locs, ~2K calls/wk",
+      "ehr": "Athena",
+      "deal_phase": "Clear MSP",
+      "key_notes": "Free pilot offer sent; Jim needs defensible ROI model before he'll commit to partners."
+    },
+    {
+      "prospect": "Total Primary Care",
+      "deal_type": "New Logo",
+      "size": "47 locs, ECW",
+      "ehr": "ECW",
+      "deal_phase": "Clear Pain & Criteria",
+      "key_notes": "Won't replace custom scheduler; acquisition-only model needs internal Solv go/no-go."
+    },
+    {
+      "prospect": "Premier Ortho",
+      "deal_type": "New Logo",
+      "size": "6 locs, 17 providers, 20–25K calls/mo",
+      "ehr": "Athena",
+      "deal_phase": "Prospecting",
+      "key_notes": "Paused — Assort contract blocking movement; Jon plans to return when clear, no timeline."
+    },
+    {
+      "prospect": "Elevate Health Group",
+      "deal_type": "Expansion",
+      "size": "3 locs, 18 providers",
+      "ehr": "Athena",
+      "deal_phase": "Prospecting",
+      "key_notes": "Near-dead — owner rejected ClearPay; Mederi relationship limits outreach pressure."
+    },
+    {
+      "prospect": "OS1",
+      "deal_type": "New Logo",
+      "size": "—",
+      "ehr": "—",
+      "deal_phase": "Prospecting",
+      "key_notes": "Warm intro at UCA only; urgent ortho ICP fit but zero discovery done."
+    },
+    {
+      "prospect": "Plymouth Bay Ortho",
+      "deal_type": "New Logo",
+      "size": "1 ortho UC loc",
+      "ehr": "ECW",
+      "deal_phase": "Removed from Pipeline",
+      "key_notes": "Internal no-go Apr 22 — ECW build not justified for single location; prospect was warm."
     }
   ]
 }
