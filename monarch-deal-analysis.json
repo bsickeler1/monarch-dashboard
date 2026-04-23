@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-04-23T00:00:00Z",
+  "summary": {
+    "total": 5,
+    "high": 2,
+    "medium": 2,
+    "low": 1
+  },
+  "Opportunities": [
+    {
+      "name": "Great Lakes Orthopaedic Center",
+      "deal type": "New Logo",
+      "Size": "4 locations · ~2K calls/week · 40 physicians",
+      "EHR": "Athena",
+      "Deal phase": "Paper Process",
+      "why_exciting": "First multi-site ortho Monarch deployment. Bundled Monarch + ClearPay at meaningful call volume with Athena integration.",
+      "Key notes": [
+        "Contract docs being sent today/tomorrow — Jim (CEO) is the economic buyer",
+        "Jim needs pricing rationale before committing to pilot",
+        "No ortho reference customer to anchor the ROI conversation",
+        "Free pilot → $1.25/resolved call + $0.40/ClearPay at scale"
+      ],
+      "next_steps": [
+        "Send contract docs today/tomorrow (Kapeesh / AE)",
+        "Kapeesh preps Jim on pricing rationale before doc review",
+        "Source ortho reference customer to strengthen ROI framing"
+      ]
+    },
+    {
+      "name": "CLS Health",
+      "deal type": "New Logo",
+      "Size": "~3K telemed visits/mo · $3,500/mo",
+      "EHR": "ECW",
+      "Deal phase": "Paper Process",
+      "why_exciting": "Pure telehealth Monarch play with a clear competitive win over Luma. June 1 start is achievable if objections are resolved this week.",
+      "Key notes": [
+        "Pricing approved at $3,500/mo + 1% Solv Pay + $0.50 ClearPay",
+        "Abigail surprised by dual-fee structure — active objection to resolve",
+        "President not yet on any calls — deal could reset at executive level",
+        "Requesting 6-month term, waived $2K impl fee, and free trial",
+        "Luma confirmed unable to match Monarch capabilities"
+      ],
+      "next_steps": [
+        "Get President on a call before paper moves forward (Brantley — this week)",
+        "Address dual-fee objection: simplify or reframe the pricing narrative",
+        "Confirm June 1 start feasibility with implementation team"
+      ]
+    },
+    {
+      "name": "Premier Ortho",
+      "deal type": "New Logo",
+      "Size": "—",
+      "EHR": "—",
+      "Deal phase": "Paused",
+      "why_exciting": "Warm, Monarch-ready practice — deal is not dead, just waiting on an external contract to resolve.",
+      "Key notes": [
+        "On hold pending Assort contract resolution",
+        "No active outreach — relationship intact"
+      ],
+      "next_steps": [
+        "Monitor Assort contract status",
+        "Re-engage immediately once Assort situation resolves"
+      ]
+    },
+    {
+      "name": "Total Primary Care",
+      "deal type": "New Logo",
+      "Size": "—",
+      "EHR": "—",
+      "Deal phase": "Stalled",
+      "why_exciting": "Expressed strong interest but timing is misaligned. Solid future pipeline — revisit Q3.",
+      "Key notes": [
+        "Cut off in early April — not on timeline for 6–9 months",
+        "No active outreach since early April"
+      ],
+      "next_steps": [
+        "Schedule Q3 re-engagement touchpoint (target July)"
+      ]
+    },
+    {
+      "name": "Plymouth Bay Ortho",
+      "deal type": "New Logo",
+      "Size": "1 urgent care location",
+      "EHR": "ECW",
+      "Deal phase": "Removed from pipeline",
+      "why_exciting": "—",
+      "Key notes": [
+        "Internal no-go decision made 4/22 — won't build custom solution for single urgent care location",
+        "ECW integration requirements were unclear"
+      ],
+      "next_steps": [
+        "No action — revisit only if scope or product fit changes"
+      ]
+    }
+  ]
+}
