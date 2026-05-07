@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-05-06T00:00:00.000Z",
+  "generatedAt": "2026-05-07T00:00:00.000Z",
   "dataSources": {
     "slack": true,
     "granola": true,
     "gong": false
   },
-  "dataSourceNote": "Slack: all #mon-prosp-* channels + #prosp-monarch-deals. Granola: CLS Health meeting notes found (5/5 demo). No Granola data for other prospects. No Gong access.",
+  "dataSourceNote": "Slack: all #mon-prosp-* and #mon-partner-* channels + #prosp-monarch-deals. Granola: CLS Health (5/5 demo confirmed + pricing details), GLOC (full deal history + Jim Stilley profile), Premier Ortho (Assort contract context). No Granola data for Plymouth Bay, Total Primary Care, OS1, or Elevate. No Gong access.",
   "executiveSummaries": [
     {
       "prospect": "Great Lakes Orthopaedic Center (GLOC)",
       "dealPhase": "Closed Won",
       "dealType": "Design Partner",
-      "size": "4 locs (2 pilot), ~2K calls/week; free pilot → $1.25/resolved call + $0.40/ClearPay at scale",
+      "size": "4 locs (2 pilot to start), ~3,500 calls/month (~7K appointments/month); free pilot → $1.25/resolved call (Maya) + $0.75/visit (ClearPay) at scale with ~15% design partner discount",
       "ehr": "Athena",
-      "champion": "Jim (CEO), Deana (Clinical Manager, 10 years)",
-      "status": "Signed 4/27. Channel renamed mon-partner-gloc on 5/1 — deal is live and in implementation. Kickoff underway: Carli (ClearPay) collecting Athena API credentials and requesting a preview environment copy-down; Kennedy (Maya) gathering phone routing specs and DID requirements. Kapeesh requested a Google Drive SOP to document design partner onboarding learnings for future customers/agents.",
+      "champion": "Jim Stilley (CEO, former Navy Commander), Deanna Dean (Clinical Manager, 10 years)",
+      "status": "Signed 4/27 — Solv's first Monarch design partner. Channel renamed to mon-partner-gloc on 5/1. Kickoff doc live; implementation underway. Carli (ClearPay/Athena) collecting API credentials and requesting a preview instance copy-down. Kennedy (Maya) gathering phone routing setup and DID requirements. Jim's leadership team is on vacation and unavailable until ~May 16 — formal kickoff call targeted after that date. Kapeesh requested a Google Drive SOP to document all design partner onboarding learnings as a template for future deals.",
       "keyRisks": [
+        "Leadership unavailable until ~May 16 — implementation can't fully kick off for ~2 more weeks",
         "Resolution rate unproven in ortho — free pilot pricing locked before we know the numbers",
-        "Jim signed without a reference customer; delivery must prove the model",
         "DID phone line may not exist at GLOC yet — provisioning takes 24-96 hours"
       ],
-      "nextStep": "GLOC to provide Athena credentials + complete 3rd-party auth form; Kennedy to confirm DID status — Owner: Carli/Kennedy — Due: ASAP"
+      "nextStep": "GLOC to provide Athena credentials + complete 3rd-party auth form; Kennedy to confirm DID phone status — Owner: Carli/Kennedy — Due: ASAP; formal kickoff call ~May 16"
     },
     {
       "prospect": "CLS Health",
       "dealPhase": "Clear MSP",
       "dealType": "New Logo",
-      "size": "$3,500/month (up to 3K telemed visits) + 1% SolvPay + $0.50/ClearPay; 15–30 telehealth physicians, 250-300+ providers total (Texas/Houston)",
+      "size": "$3,000–$3,500/month platform fee (up to 3K telemed visits) + $0.50/ClearPay + 1% SolvPay; 15–30 telehealth physicians to start, 250–300+ providers total, Texas/Houston",
       "ehr": "ECW (potential Epic/Oracle migration in ~1 year)",
-      "champion": "Abigail Escalante (EMR Ops Manager), Dr. Khaled Attia (clinical); Dr. Baba (decision-maker, skeptical); President of CLS engaged and driving urgency",
-      "status": "Full telehealth demo delivered 5/5 (Granola + Slack confirmed). Dr. Baba is the decision-maker — engaged but explicitly gating on ECW integration proof: 'if this doesn't integrate with ECW, let us know.' HMO/PCP routing logic unresolved (workaround proposed: place of service code 20 or cash pay). Pricing shared ($3,500/month flat); CLS pushing for hybrid model (smaller platform fee + usage-based), 6-month first term, and waived $2K impl fee. Luma disqualified by CLS — confirmed unable to match dynamic eligibility. President wants this to potentially replace Luma for ALL primary care scheduling, a major scope expansion. CLS is committing a full-time project resource. Target go-live June 1; implementation 6-8 weeks means August 1 worst case.",
+      "champion": "Abigail Escalante (EMR Ops Manager, day-to-day), Dr. Khaled Attia (clinical champion); Dr. Baba = skeptical decision-maker; President of CLS engaged and driving urgency",
+      "status": "Full telehealth end-to-end demo delivered 5/5 (Granola + Slack confirmed). Dr. Baba explicitly gating on ECW integration proof — 'if this doesn't integrate with ECW, let us know.' HMO/PCP routing unresolved (proposed workaround: place of service 20 or cash-pay). Luma disqualified by CLS for not matching dynamic eligibility. President wants Solv to potentially replace Luma for ALL primary care scheduling — major scope expansion beyond the original telehealth motion. CLS is committing a full-time internal project resource. As of 5/6, Katie asked Danny and Brantley to compile all CLS feedback/questions into a doc for Maria Kwok (now on channel) to review. Target go-live June 1; 6-8 week implementation puts that at risk.",
       "keyRisks": [
-        "ECW integration proof is the hard gate — Dr. Baba needs a demo video or reference (ECW + multi-provider + Texas preferred), not assurances",
+        "ECW integration proof is the hard gate — Dr. Baba needs a demo video or reference (ECW + multi-provider + Texas) within 1-2 days",
         "HMO/assigned PCP billing workaround unresolved — could block a meaningful patient segment at launch",
-        "Pricing negotiation unresolved — CLS wants hybrid pricing, shorter term, and waived impl fee simultaneously"
+        "Pricing negotiation open — CLS wants hybrid model, 6-month first term, and waived $2K impl fee simultaneously"
       ],
-      "nextStep": "Deliver ECW integration proof (video or ECW + multi-provider + Texas reference) — Owner: Brantley/Danny — Due: 1-2 days"
+      "nextStep": "Deliver ECW integration proof (video or ECW + multi-provider + Texas reference) + compile CLS feedback/questions doc for Maria Kwok — Owner: Brantley/Danny — Due: Today/tomorrow"
     },
     {
       "prospect": "Plymouth Bay Orthopedic Associates",
@@ -43,29 +43,29 @@
       "dealType": "New Logo",
       "size": "3 existing locs + 1 standalone ortho urgent care opening June 1; MRR TBD",
       "ehr": "ECW",
-      "champion": "Jennifer Hazelton (Dir. of Marketing, ex-PhysicianOne/Solv user), Christopher LaFave (Executive Director)",
-      "status": "Strong 4/8 full executive demo — Executive Director, Ops Manager, Clinical Manager, and Dir. of Marketing all attended and asked the right operational questions. Team confirmed urgent ortho workflow fit; verbal interest given. Jennifer is already sold; June 1 new location opening is the forcing function. Christopher pushed for a live ECW data-flow demo before committing. Team agreed to internal review with a reconnect in ~1 week from 4/8 (that reconnect may have slipped).",
+      "champion": "Jennifer Hazelton (Dir. of Marketing, ex-PhysicianOne/ex-Solv user), Christopher LaFave (Executive Director)",
+      "status": "Strong 4/8 executive demo — Executive Director, Ops Manager, Clinical Manager, and Dir. of Marketing all attended. Team confirmed urgent ortho workflow fit and gave verbal interest. June 1 new location is the forcing function. Christopher pushed for a live ECW data-flow demo before committing. Deck and ECW integration packet were due Mon/Tues of the week of 4/14 — now approximately 3 weeks overdue with no update in channel. Referral workflow gap remains a risk for expansion beyond the urgent care location.",
       "keyRisks": [
-        "ECW integration confidence is a hard gate — Christopher needs to see data actually flowing into ECW",
-        "Referral workflow gap may block expansion to the 3 non-urgent ortho locations",
-        "Deck + ECW integration packet delivery appears overdue from week of 4/8 — risk of momentum loss"
+        "ECW live-data-flow demo is a hard gate — Christopher won't commit without seeing it",
+        "Deck + ECW integration packet is ~3 weeks overdue — momentum loss risk is real",
+        "Referral workflow gap blocks expansion to the 3 non-urgent ortho clinics (HMO patients require referral before scheduling)"
       ],
-      "nextStep": "Brantley to confirm follow-up call is scheduled and send ECW integration packet — Owner: Brantley — Due: Overdue (was Mon/Tues week of 4/14), chase immediately"
+      "nextStep": "Confirm follow-up call is booked and send ECW integration packet immediately — Owner: Brantley — Due: Overdue, chase today"
     },
     {
       "prospect": "Total Primary Care",
       "dealPhase": "Clear Pain & Criteria",
       "dealType": "New Logo",
-      "size": "47 confirmed locations, ECW, homegrown scheduler",
+      "size": "47 confirmed locations, ECW, homegrown scheduler; acquisition-layer scenario only",
       "ehr": "ECW",
       "champion": "Rikin Shah (Chief of Staff) — not final DM",
-      "status": "As of 4/7, effectively cut off. Rikin won't replace their CTO-built scheduler ('too many resources poured in') and is 6-9 months out from any real timeline. Only viable path is Solv as a patient acquisition layer (GMB routes to Solv booking alongside their existing scheduler) — a non-standard deal structure with unknown internal appetite. Rikin is also piloting a competing voice agent and expressed skepticism about Maya. Teresa and Kapeesh are aware — team has the option to close this out.",
+      "status": "Effectively cut off as of 4/7. Rikin won't replace the CTO-built scheduler ('too many resources poured in') and is 6-9 months from any real timeline (earliest October 2026). Only viable path is Solv as an acquisition layer alongside their existing scheduler — a non-standard deal structure with unknown internal appetite. Rikin is also actively piloting a competing voice agent and dismissed Maya. Teresa and Kapeesh are aware. Team can close this out.",
       "keyRisks": [
-        "6-9 month timeline — no realistic path to a 2026 deal",
-        "Competing voice agent in active pilot — Maya entry closed for now",
-        "Non-standard acquisition-only deal structure requires internal Solv go/no-go"
+        "6-9 month stated timeline puts any deal in Q4 2026 at earliest",
+        "Competing voice agent in active pilot — Maya is closed for now",
+        "Non-standard acquisition-only model requires internal Solv go/no-go before re-engaging"
       ],
-      "nextStep": "Internal Solv decision: pursue acquisition-only model or close out — Owner: Teresa/Kapeesh — Due: TBD"
+      "nextStep": "Internal Solv decision: pursue acquisition-only model at scale or formally close out — Owner: Teresa/Kapeesh — Due: TBD"
     },
     {
       "prospect": "Premier Ortho",
@@ -73,14 +73,14 @@
       "dealType": "New Logo",
       "size": "6 locations, 17 providers, ~20-25K calls/month",
       "ehr": "Athena",
-      "champion": "Jon Borja (COO) — proactive communicator",
-      "status": "Paused since 3/11 due to unresolved Assort Health contract exit. Jon proactively communicated the block rather than ghosting and confirmed intent to return to Solv when clear — no timeline given. This deal was near-signature in late February before the Assort issue surfaced. Last touch was 3/30 (friendly, no asks). Bryan joined the channel on 4/22 for monitoring. Passive cadence only.",
+      "champion": "Jon Borja (COO, proactive communicator) — knows Maya from prior Exer implementation",
+      "status": "Paused since 3/11 due to unresolved Assort Health contract exit. Jon proactively communicated the block rather than ghosting and confirmed intent to return to Solv when clear. This deal was near-signature in late February (DocuSign pending) before Assort surfaced. Assort's ToS prevents running Maya in parallel — full exit required before activation. Last active outreach was 3/30 (friendly check-in, no asks). Bryan joined the channel 4/22. Per the every-2-weeks cadence, a check-in is overdue as of early May.",
       "keyRisks": [
-        "Zero visibility into Assort exit timeline — could be months",
-        "Deal was near-signature; restarting after a long pause will require re-engagement",
-        "Competitive risk grows during the pause window"
+        "Zero visibility into Assort exit timeline — could be weeks or months",
+        "Deal was near-signature in Feb; restarting after a 2-month pause requires re-qualification",
+        "Competitive risk grows silently during the pause window"
       ],
-      "nextStep": "Passive monitoring — periodic check-in every 2 weeks; next touch ~mid-May — Owner: Brantley"
+      "nextStep": "Overdue check-in with Jon on Assort exit status — Owner: Brantley — Due: This week"
     },
     {
       "prospect": "OS1 Orthopedic & Sports Injury Clinics",
@@ -89,13 +89,13 @@
       "size": "4 locations (1 struggling badly); cash constrained",
       "ehr": "—",
       "champion": "Randy Johansen (Board Member, former AFC CEO) — intro via Heather at UCA happy hour",
-      "status": "Note: Based on #prosp-monarch-deals only — no dedicated channel or Granola data found. Very early. First exploratory call 4/24. Org opened 3 locations simultaneously and cash-constrained itself — Kennesaw (Atlanta) location is a serious drag (opened months without an MRI). Randy is meeting with the OS1 team to assess if they're in a position to evaluate solutions. Reconnect planned for Friday/Monday week of 4/28. Brantley to share ClearPay + Maya materials with Evan Cory's help.",
+      "status": "Note: Based on #prosp-monarch-deals only — no dedicated channel or Granola data found. First exploratory call 4/24. Org opened 3 locations simultaneously and cash-constrained itself; Kennesaw (Atlanta) location is a serious drag (opened without MRI for months). Randy was meeting with the OS1 team to assess readiness the week of 4/28 — no update posted in channel since 4/24. Planned reconnect (Friday 5/1 or Monday 5/4) has now passed with no visible follow-through. Status unknown.",
       "keyRisks": [
         "Cash constraints may make any new spend a non-starter before operations stabilize",
-        "Randy is a board member, not an operator — unclear internal decision authority",
-        "No EHR or operational contacts identified yet"
+        "Randy is a board member, not an operator — internal decision path unclear",
+        "Reconnect week of 4/28 has passed with no visible update — deal may have gone cold"
       ],
-      "nextStep": "Share ClearPay + Maya materials with Randy for OS1 team meeting — Owner: Brantley/Evan — Due: Week of 4/28 (may be slightly overdue, confirm status)"
+      "nextStep": "Confirm status of Randy/OS1 reconnect call and share ClearPay + Maya materials — Owner: Brantley/Evan — Due: Overdue, confirm today"
     },
     {
       "prospect": "Elevate Health Group",
@@ -103,31 +103,31 @@
       "dealType": "Expansion",
       "size": "3 locations, 18 providers, primary care, SoCal",
       "ehr": "Athena",
-      "champion": "Katia Sarfian (Administrator) — owner Dr. Tovmassian is the blocker",
-      "status": "Note: ClearPay-only deal — not a Monarch bundle. Near-dead. Dr. Tovmassian (owner, also owns existing Solv partner Mederi) rejected ClearPay on 3/16: 'doesn't make sense for our practice, 90% of patients are recurring.' Product-market fit genuinely doesn't exist for primary care under current ClearPay pricing. No response to 3/24 follow-up. Not pushing hard to protect the existing Mederi relationship.",
+      "champion": "Katia Sarfian (Administrator) — Dr. Tovmassian (owner) is the blocker",
+      "status": "Note: ClearPay-only deal — not a Monarch bundle. Near-dead. Dr. Tovmassian (owner, also owns existing Solv partner Mederi) rejected ClearPay on 3/16: 'doesn't make sense for our practice, 90% of patients are recurring.' Real collection pain exists but the point-of-care estimate workflow doesn't fit primary care recurring patients under current pricing. No response to 3/24 follow-up. Not pushing aggressively to protect the existing Mederi relationship.",
       "keyRisks": [
-        "Owner-level objection is substantive — recurring primary care patient model doesn't fit current ClearPay pricing",
-        "Pushing too hard risks damaging the existing Mederi partner relationship"
+        "Owner-level rejection is substantive — recurring primary care model doesn't fit current ClearPay pricing",
+        "Pushing too hard risks damaging the active Mederi partnership"
       ],
-      "nextStep": "Low-priority dormant follow-up; revisit when ClearPay evolves a primary care use case — Owner: Brantley — Due: No near-term action"
+      "nextStep": "Dormant — revisit only if ClearPay evolves a primary care pricing model — Owner: Brantley — Due: No near-term action"
     }
   ],
   "leadershipTable": [
     {
       "prospect": "Great Lakes Ortho (GLOC)",
       "dealType": "Design Partner",
-      "size": "4 locs (2 pilot), ~2K calls/wk",
+      "size": "4 locs (2 pilot), ~3.5K calls/mo",
       "ehr": "Athena",
       "dealPhase": "Closed Won",
-      "keyNotes": "Signed 4/27; implementation live — Athena API access + Maya DID setup in progress."
+      "keyNotes": "Signed 4/27; implementation live — Athena API access + Maya DID setup underway; kickoff ~May 16."
     },
     {
       "prospect": "CLS Health",
       "dealType": "New Logo",
-      "size": "$3,500/mo + usage (250-300 providers, TX)",
+      "size": "$3–3.5K/mo + usage (250-300 providers, TX)",
       "ehr": "ECW",
       "dealPhase": "Clear MSP",
-      "keyNotes": "5/5 demo done; ECW integration proof is the hard gate — Dr. Baba needs video/reference in 1-2 days."
+      "keyNotes": "5/5 demo done; ECW integration proof is hard gate — Dr. Baba needs video/reference today/tomorrow."
     },
     {
       "prospect": "Plymouth Bay Ortho",
@@ -135,7 +135,7 @@
       "size": "3 locs + June 1 urgent ortho opening",
       "ehr": "ECW",
       "dealPhase": "Building Champion",
-      "keyNotes": "Strong 4/8 exec demo; ECW live-demo + deck delivery overdue — June 1 is forcing function."
+      "keyNotes": "Strong 4/8 exec demo; ECW live-data-flow demo overdue ~3 weeks — June 1 is the forcing function."
     },
     {
       "prospect": "Total Primary Care",
@@ -143,7 +143,7 @@
       "size": "47 locs, ECW",
       "ehr": "ECW",
       "dealPhase": "Clear Pain & Criteria",
-      "keyNotes": "6-9 month timeline; won't replace homegrown scheduler; competing voice agent in pilot — need go/no-go."
+      "keyNotes": "6-9 month timeline; won't replace homegrown scheduler; competing voice agent in pilot — close or defer."
     },
     {
       "prospect": "Premier Ortho",
@@ -151,7 +151,7 @@
       "size": "6 locs, 17 providers, ~25K calls/mo",
       "ehr": "Athena",
       "dealPhase": "Prospecting (Paused)",
-      "keyNotes": "Blocked by Assort Health contract exit since 3/11; COO will re-engage when resolved."
+      "keyNotes": "Blocked by Assort contract since 3/11; check-in overdue — Jon will re-engage when exit resolves."
     },
     {
       "prospect": "OS1 Ortho & Sports Injury",
@@ -159,7 +159,7 @@
       "size": "4 locs (cash-constrained)",
       "ehr": "—",
       "dealPhase": "Prospecting",
-      "keyNotes": "Board-level intro only; cash-strapped org evaluating capacity to buy after overexpanding."
+      "keyNotes": "Post-UCA board intro; reconnect week of 4/28 has passed with no visible update — confirm status."
     },
     {
       "prospect": "Elevate Health Group",
@@ -167,7 +167,7 @@
       "size": "3 locs, 18 providers, SoCal",
       "ehr": "Athena",
       "dealPhase": "Prospecting (Near Dead)",
-      "keyNotes": "Owner rejected ClearPay outright — primary care recurring-patient model isn't a fit; not Monarch."
+      "keyNotes": "Owner rejected ClearPay outright — primary care recurring-patient model isn't a product fit."
     }
   ],
   "closedLost": [
