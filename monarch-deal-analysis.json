@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-08T00:00:00-04:00",
+  "generated_at": "2026-05-11T00:00:00-04:00",
   "summary": {
     "total": 7,
     "high": 1,
-    "medium": 3,
-    "low": 3
+    "medium": 2,
+    "low": 4
   },
   "Opportunities": [
     {
       "name": "Great Lakes Orthopedic Center (GLOC)",
       "deal type": "Design Partner",
-      "Size": "4 locs (2 pilot) · ~3,500 calls/mo · Free pilot → $1.25/resolved call + $0.40/ClearPay at scale",
+      "Size": "4 locs (2 pilot) · ~2K calls/wk · Free pilot → $1.25/resolved call + $0.40/ClearPay at scale",
       "EHR": "Athena",
-      "Deal phase": "Paper Process",
-      "why_exciting": "Solv's first Monarch design partner — signed Apr 27. Athena ortho reference in the making.",
+      "Deal phase": "Closed Won",
+      "why_exciting": "Solv's first Monarch design partner — signed Apr 27. Athena ortho reference actively being built.",
       "Key notes": [
         "Signed Apr 27; kickoff doc live May 1 — Carli collecting Athena API credentials + requesting preview instance copy-down; Kennedy delivering Maya DID phone requirements to GLOC team",
-        "Jim Stilley (CEO, former Navy Commander) and Deanna Dean (Clinical Manager, 10 yrs) are implementation owners",
+        "Jim Stilley (CEO, former Navy Commander) and Deanna Dean (Clinical Manager, 10 yrs) are implementation owners on GLOC side",
         "Jim's leadership team on vacation until ~May 16 — formal kickoff call targeted after that date",
         "Kapeesh requested a Google Drive SOP to document all design partner onboarding learnings as a repeatable template",
         "Pilot is free — deal becomes margin-positive once resolution rate hits ~35%; rate unproven in ortho context"
@@ -35,15 +35,15 @@
       "Deal phase": "Stalled",
       "why_exciting": "President wants Solv to replace Luma for ALL primary care scheduling — scope could expand far beyond telehealth origin.",
       "Key notes": [
-        "Full end-to-end telehealth demo delivered May 5 — Dr. Baba (DM) is engaged but explicitly gating on ECW proof: 'if this doesn't integrate with ECW, let us know'",
-        "HMO/assigned-PCP billing logic unresolved — workaround (place of service 20 or cash-pay) needs validation before launch",
-        "CLS pricing counter open: per-encounter hybrid model, 3–6 months free, 6-month initial term, waive $2K impl fee",
-        "Luma disqualified by CLS (can't match dynamic eligibility); Commure already in use as AI scribe",
-        "Two-part deal: UC telehealth now + specialties as design partner separately; Daniele taking over AE role from Brantley; Maria Kwok added to channel May 6"
+        "Full end-to-end telehealth demo delivered May 5 — Dr. Baba (decision-maker) is engaged but explicitly gating on ECW proof: 'if this doesn't integrate with ECW, let us know'",
+        "HMO/assigned-PCP billing logic unresolved — workaround (place of service 20 or cash-pay at $60–75/visit) needs validation before launch",
+        "CLS pricing counter open: per-encounter hybrid model requested, 3–6 months free ramp, 6-month initial term (vs. 1-year), waive $2K impl fee",
+        "Danny Cavic asked May 6 to compile all CLS feedback/questions into a doc for Maria Kwok (newly added to channel) to review and add details",
+        "Two-part deal: UC telehealth now + specialties as design partner separately; Kapeesh call on specialty scope (referral/auth workflow) still unscheduled; Luma disqualified by CLS on dynamic eligibility"
       ],
       "next_steps": [
-        "Deliver ECW integration proof — video or reference (ECW + multi-provider + Texas preferred) — Owner: Brantley/Danny — Due: TODAY",
-        "Danny to compile all CLS feedback/questions into doc for Maria Kwok review — Due: TODAY",
+        "Danny to compile all CLS feedback/questions into doc for Maria Kwok review — Owner: Danny — Due: ASAP",
+        "Deliver ECW integration proof video (HIPAA-blurred) + ECW reference customer (multi-provider, Texas preferred) — Owner: Brantley/Danny — Due: Urgent",
         "Schedule Kapeesh call on specialty design partner scope (ClearPay referral/auth workflow) — Owner: Kapeesh — Due: TBD"
       ]
     },
@@ -56,7 +56,7 @@
       "why_exciting": "Was near-DocuSign in February — highest-intent Athena ortho deal in pipeline; Jon Borja (COO) is transparent and self-advocating.",
       "Key notes": [
         "Formally paused since Mar 11 — Assort Health exclusivity clause blocks all movement until their exit resolves; no timeline given",
-        "Jon proactively reached out rather than ghosting and confirmed intent to return to Solv when clear",
+        "Jon proactively reached out 3/11 rather than ghosting, confirmed intent to return to Solv when clear",
         "Deal was at near-signature in late Feb (DocuSign pending) before Assort surfaced — Jon knows the product well",
         "Assort's ToS prevents even a listening phase while still under contract",
         "Last active check-in Apr 7 (no update); every-2-week passive cadence means a check-in is now overdue"
@@ -76,13 +76,13 @@
       "Key notes": [
         "Note: Based on #prosp-monarch-deals only — no dedicated Slack channel or Granola data found",
         "Org is cash-constrained after opening 3 locations simultaneously; Atlanta (Kennesaw) location is a serious drag (opened months without an MRI)",
-        "Randy (board member) scheduled to reconvene week of Apr 28 after an internal board meeting — Fri May 1 or Mon May 4 reconnect has now passed with no visible update",
-        "Pitch focus: ClearPay (insurance verification) + Maya (back-office efficiency) to improve cash flow without adding headcount",
+        "Randy (board member) scheduled to reconvene week of Apr 28 after internal board meeting — May 1–4 reconnect window has now passed with no visible update",
+        "Pitch focus: ClearPay + Maya to improve cash flow and reduce headcount pressure without large upfront cost",
         "Randy is board-level not operational — no day-to-day champion identified yet"
       ],
       "next_steps": [
-        "Confirm whether Randy/OS1 board reconnect happened — Owner: Brantley/Evan — Due: TODAY",
-        "Share print-friendly one-pager (ClearPay + Maya, bettersooner.com) — Owner: Evan — Due: Upon reconnect"
+        "Confirm whether Randy/OS1 board reconnect happened and what came of it — Owner: Brantley/Evan — Due: TODAY",
+        "Share print-friendly one-pager (ClearPay + Maya ROI, bettersooner.com) — Owner: Evan — Due: Upon reconnect"
       ]
     },
     {
@@ -127,7 +127,7 @@
       "Key notes": [
         "Cut off Apr 7 — Rikin (CoS) won't replace the CTO-built scheduler and is 6–9 months from any real Monarch commitment",
         "Only viable path was acquisition-layer model alongside their existing scheduler — non-standard deal with unclear Solv appetite",
-        "Rikin is actively piloting a competing voice agent and dismissed Maya explicitly"
+        "Rikin is actively piloting a competing voice agent and was skeptical of Maya"
       ],
       "next_steps": [
         "No near-term action. Revisit Q4 2026 if acquisition-layer deal model gains internal Solv traction — Owner: Teresa/Kapeesh"
